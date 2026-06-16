@@ -67,7 +67,6 @@ MonsterTab:CreateButton({Name = "🔄 Reset to Human", Callback = function()
     Rayfield:Notify({Title = "RESET", Content = "Kembali Normal", Duration = 3})
 end})
 
--- Attack Tool
 local Tool = Instance.new("Tool")
 Tool.Name = "HasoDex Attack"
 Tool.RequiresHandle = false
@@ -85,4 +84,4 @@ Tool.Activated:Connect(function()
     end
 end)
 
-Rayfield:Notify({Title = "HasoDex", Content = "by AndikaDex - Loaded! Pilih monster di tab Monsters", Duration = 8})
+Rayfield:Notify({Title = "HasoDex", Content = "by AndikaDex - Loaded!", Duration = 8})

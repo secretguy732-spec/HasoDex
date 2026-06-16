@@ -84,4 +84,4 @@ Tool.Activated:Connect(function()
     end
 end)
 
-Rayfield:Notify({Title = "HasoDex", Content = "by AndikaDex - Loaded!\nPilih monster di tab Monsters", Duration = 8})
+Rayfield:Notify({Title = "HasoDex", Content = "by AndikaDex - Loaded!", Duration = 8})

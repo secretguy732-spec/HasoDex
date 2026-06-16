@@ -49,9 +49,9 @@ MonsterTab:CreateDropdown({
     Default = "SCP-096",
     Callback = function(val)
         for _, m in ipairs(Monsters) do
-            if m.Name == val then 
-                TransformToMonster(m) 
-                break 
+            if m.Name == val then
+                TransformToMonster(m)
+                break
             end
         end
     end
@@ -84,4 +84,4 @@ Tool.Activated:Connect(function()
     end
 end)
 
-Rayfield:Notify({Title = "HasoDex", Content = "by AndikaDex - Loaded!", Duration = 8})
+Rayfield:Notify({Title = "HasoDex", Content = "by AndikaDex - Loaded!\nPilih monster di tab Monsters", Duration = 8})
